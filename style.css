@@ -12,11 +12,52 @@
     background-image: url('./images/bg.png');
     background-position: center;
     background-size: cover;
+    margin: 50px 0;
+
 }
 
 .part1 {
+    color: white;
+    font-size: medium;
     font-family: sans-serif;
+    text-align: justify;
+    position: absolute;
+    margin: 50px -400px;
+    padding: 250px 100px;
+    width: 100%;
+}
 
+.part2 {
+    position: relative;
+    top: 250px;
+    margin: 50px 0;
+    padding: 0 300px;
+    width: 100%;
+}
+
+.part3 {
+    position: absolute;
+    text-indent: inherit;
+    margin: 50px -400px;
+    padding: 250px 100px;
+    width: 100%;
+}
+
+.text {
+    position: relative;
+    margin: -50px 50px;
+}
+
+.part4 {
+    margin: 50px -400px;
+    padding: 250px 100px;
+    width: 100%;
+}
+
+.part5 {
+    margin: 50px -400px;
+    padding: 250px 100px;
+    width: 100%;
 }
 
 .page2 {
