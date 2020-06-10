@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-.logo a {
+.page1 .logo a {
     font-family: sans-serif;
     font-size: 2vw;
     color: white;
@@ -17,11 +17,11 @@
     background-position: center;
 }
 
-header {
+.page1 header {
     display: flex;
 }
 
-.logo,
+.page1 .logo,
 .nav-links {
     display: flex;
     padding-top: 20px;
@@ -29,15 +29,15 @@ header {
     padding-right: 100px;
 }
 
-.logo {
+.page1 .logo {
     flex: 1;
 }
 
-nav {
+.page1 nav {
     flex: 1;
 }
 
-.nav-links {
+.page1 .nav-links {
     font-family: sans-serif;
     font-size: 18px;
     font-weight: bold;
@@ -47,11 +47,11 @@ nav {
     list-style: none;
 }
 
-.nav-links a {
+.page1 .nav-links a {
     color: white;
 }
 
-.introduction h2 {
+.page1 .introduction h2 {
     font-family: sans-serif;
     font-size: 50px;
     color: white;
@@ -60,7 +60,7 @@ nav {
     margin: auto;
 }
 
-.introduction p {
+.page1 .part2 .introduction p {
     font-family: sans-serif;
     font-size: 16px;
     color: white;
@@ -70,42 +70,42 @@ nav {
     margin: auto;
 }
 
-.image-student {
+.page1 .image-student {
     padding-top: 50px;
-    padding-left: 400px;
+    padding-left: 100px;
     width: 60%;
 }
 
-.part2 {
+.page1 .part2 {
     padding-top: 100px;
     padding-right: 100px;
 }
 
-.part3 {
+.page1 .part3 {
     padding-top: 450px;
     padding-left: 100px;
     padding-right: 100px;
 }
 
-.part3 .intro {
+.page1 .part3 .intro {
     display: flex;
 }
 
-.intro .col-1 {
+.page1 .intro .col-1 {
     flex: 0;
 }
 
-.intro .intro1 {
+.page1 .intro .intro1 {
     flex: 1;
 }
 
-.intro {
+.page1 .intro {
     justify-items: flex-end;
     justify-content: space-around;
     padding-bottom: 50px;
 }
 
-.intro1 p {
+.page1 .intro1 p {
     padding-top: 10px;
 }
 
@@ -159,5 +159,48 @@ nav {
 .page2 .slider .item .card-star img {
     width: 60%;
 }
+
+.page3 {
+    margin: 50px 0;
+    padding: 0 100px;
+    width: 100%;
+    height: 100vh;
+}
+
+.page3 {
+    background-image: url("./images/Intersection\ 5.png");
+    background-size: cover;
+    background-position: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+
+.page3 .introduction h2 {
+    padding-top: 200px;
+    font-family: sans-serif;
+    font-size: 50px;
+    color: white;
+    margin: auto;
+    max-width: 90%;
+}
+
+
+.page3 .introduction p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: white;
+    margin: auto;
+    max-width: 90%;
+}
+
+
+.page3 .image-label {
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 12px;
+    color: white;
+}
+
 
 /*# sourceMappingURL=style.css.map */
