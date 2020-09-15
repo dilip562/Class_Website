@@ -1,206 +1,518 @@
 * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 .page1 .logo a {
-    font-family: sans-serif;
-    font-size: 2vw;
-    color: white;
+  font-family: sans-serif;
+  font-size: 2vw;
+  color: white;
 }
 
 .page1 {
-    background-image: url("./images/bg.png");
-    background-size: cover;
-    background-position: center;
+  background-image: url("./images/bg.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .page1 header {
-    display: flex;
+  display: flex;
 }
 
 .page1 .logo,
 .nav-links {
-    display: flex;
-    padding-top: 20px;
-    padding-left: 100px;
-    padding-right: 100px;
+  display: flex;
+  padding-top: 20px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .page1 .logo {
-    flex: 1;
+  flex: 1;
 }
 
 .page1 nav {
-    flex: 1;
+  flex: 1;
 }
 
 .page1 .nav-links {
-    font-family: sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    justify-items: flex-end;
-    justify-content: space-around;
-    text-decoration: none;
-    list-style: none;
+  font-family: sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  justify-items: flex-end;
+  justify-content: space-around;
+  text-decoration: none;
+  list-style: none;
 }
 
 .page1 .nav-links a {
-    color: white;
+  color: white;
 }
 
 .page1 .introduction h2 {
-    font-family: sans-serif;
-    font-size: 50px;
-    color: white;
-    padding-top: 100px;
-    padding-left: 100px;
-    margin: auto;
+  font-family: sans-serif;
+  font-size: 50px;
+  color: white;
+  padding-top: 100px;
+  padding-left: 100px;
+  margin: auto;
 }
 
 .page1 .part2 .introduction p {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: white;
-    padding-top: 50px;
-    padding-left: 100px;
-    padding-right: 300px;
-    margin: auto;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+  padding-top: 50px;
+  padding-left: 100px;
+  padding-right: 300px;
+  margin: auto;
 }
 
 .page1 .image-student {
-    padding-top: 50px;
-    padding-left: 100px;
-    width: 60%;
+  padding-top: 50px;
+  padding-left: 100px;
+  width: 60%;
 }
 
 .page1 .part2 {
-    padding-top: 100px;
-    padding-right: 100px;
+  padding-top: 100px;
+  padding-right: 100px;
 }
 
 .page1 .part3 {
-    padding-top: 450px;
-    padding-left: 100px;
-    padding-right: 100px;
+  padding-top: 450px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .page1 .part3 .intro {
-    display: flex;
+  display: flex;
 }
 
 .page1 .intro .col-1 {
-    flex: 0;
+  flex: 0;
 }
 
 .page1 .intro .intro1 {
-    flex: 1;
+  flex: 1;
 }
 
 .page1 .intro {
-    justify-items: flex-end;
-    justify-content: space-around;
-    padding-bottom: 50px;
+  justify-items: flex-end;
+  justify-content: space-around;
+  padding-bottom: 50px;
 }
 
 .page1 .intro1 p {
-    padding-top: 10px;
+  padding-top: 10px;
 }
 
 .page2 {
-    margin: 50px 0;
-    padding: 0 100px;
-    width: 100%;
-    height: 100vh;
+  margin: 50px 0;
+  padding: 0 100px;
+  width: 100%;
+  height: 100vh;
 }
 
 .page2 .heading {
-    width: 45%;
+  width: 45%;
 }
 
 .page2 .heading h1 {
-    font-family: Nimbus Roman D OT;
+  font-family: Nimbus Roman D OT;
 }
 
 .page2 .slider {
-    margin: 30px 0;
+  margin: 30px 0;
 }
 
 .page2 .slider .item {
-    padding: 20px;
+  padding: 20px;
 }
 
 .page2 .slider .item .card-img img {
-    width: 100%;
+  width: 100%;
 }
 
 .page2 .slider .item .card-title {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    padding: 0 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 15px;
 }
 
 .page2 .slider .item .detail {
-    padding: 0 15px;
-    font-family: Nimbus Roman D OT;
+  padding: 0 15px;
+  font-family: Nimbus Roman D OT;
 }
 
 .page2 .slider .item .card-star {
-    width: 100%;
-    padding: 5px 15px;
+  width: 100%;
+  padding: 5px 15px;
 }
 
 .page2 .slider .item .card-star img {
-    width: 60%;
+  width: 60%;
 }
 
 .page3 {
-    margin: 50px 0;
-    padding: 0 100px;
-    width: 100%;
-    height: 100vh;
+  margin: 50px 0;
+  padding: 0 100px;
+  width: 100%;
+  height: 100vh;
 }
 
 .page3 {
-    background-image: url("./images/Intersection\ 5.png");
-    background-size: cover;
-    background-position: center;
-    padding-left: 100px;
-    padding-right: 100px;
+  background-image: url("./images/Intersection\ 5.png");
+  background-size: cover;
+  background-position: center;
+  padding-left: 100px;
+  padding-right: 100px;
 }
-
 
 .page3 .introduction h2 {
-    padding-top: 200px;
-    font-family: sans-serif;
-    font-size: 50px;
-    color: white;
-    margin: auto;
-    max-width: 90%;
+  padding-top: 200px;
+  font-family: sans-serif;
+  font-size: 50px;
+  color: white;
+  margin: auto;
+  max-width: 90%;
 }
-
 
 .page3 .introduction p {
-    font-family: sans-serif;
-    font-size: 16px;
-    color: white;
-    margin: auto;
-    max-width: 90%;
+  font-family: sans-serif;
+  font-size: 16px;
+  color: white;
+  margin: auto;
+  max-width: 90%;
 }
-
 
 .page3 .image-label {
-    padding-top: 10px;
-    font-family: sans-serif;
-    font-size: 12px;
-    color: white;
+  padding-top: 10px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: white;
 }
 
+.page4 {
+  position: relative;
+  margin: 50px 0;
+  padding: 0 100px;
+  width: 100%;
+  height: 100vh;
+}
+
+.page4 .header {
+  margin: 50px 0;
+  padding: 0 30px;
+  width: 30%;
+}
+
+.page4 .header p {
+  padding-top: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.page4 .col-4 {
+  padding: 40px;
+}
+
+.page4 .container1,
+.container2,
+.container3,
+.container4,
+.container5,
+.container6 {
+  box-shadow: 0 2px 4px gray;
+  padding: 60px;
+}
+
+.page4 .col-4 h4 {
+  padding-top: 40px;
+}
+
+.page4 .col-4 p {
+  padding-top: 30px;
+}
+
+.page4 .container5 {
+  position: absolute;
+  bottom: 200px;
+}
+
+.page4 .container6 {
+  position: absolute;
+  bottom: 350px;
+}
+
+.page4 .container2 {
+  position: absolute;
+  bottom: 200px;
+}
+
+.page4 .container3 {
+  position: absolute;
+  bottom: 350px;
+}
+
+.page5 {
+  margin: 50px 0;
+  padding: 0 100px;
+  width: 100%;
+  height: 100vh;
+}
+
+.page5 .row .col-6 {
+  top: 400px;
+}
+
+.page5 .row .col-6 h1 {
+  padding-top: 250px;
+  padding-left: 100px;
+  padding-bottom: 50px;
+  color: #9a1ed5;
+}
+
+.page5 .row .col-6 h4 {
+  font-weight: bold;
+  padding-left: 100px;
+}
+
+.page5 .row .col-6 h6 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: gray;
+  font-size: small;
+  padding-left: 100px;
+  padding-top: 5px;
+}
+
+.page5 .row .col-6 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  color: gray;
+  width: 60%;
+  padding-left: 100px;
+  padding-bottom: 50px;
+}
+
+.page5 .row .col-6 img {
+  width: 720px;
+  height: 860px;
+  border: 1px solid white;
+  box-shadow: 0 0 10px black;
+}
+
+.page6 {
+  position: relative;
+  top: 400px;
+  background-image: url("./images/Intersection\ 4.png");
+  background-size: cover;
+  background-position: center;
+  padding-top: 400px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+  height: 100vh;
+}
+
+.page6 .row .col-4 h1 {
+  color: white;
+  padding-top: 10px;
+  padding-left: 100px;
+}
+
+.page6 .row .col-4 p {
+  color: white;
+  padding-left: 100px;
+}
+
+.page6 .form {
+  position: absolute;
+  right: 300px;
+  bottom: 220px;
+  width: 400px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 500px; */
+  align-items: center;
+  box-shadow: 0 0 10px grey;
+}
+
+.page6 .row .form h1 {
+  font-weight: bold;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+.page6 .row .form p {
+  font-size: smaller;
+  color: white;
+  text-align: center;
+}
+
+.page6 .row .form input {
+  background: transparent;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom-color: #c4c4c4;
+  width: 80%;
+  height: 50px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+::placeholder {
+  color: #c4c4c4;
+}
+
+.page6 .row .form button {
+  background-color: #8433fb;
+  margin-top: 20px;
+  width: 80%;
+  height: 40px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 4px #8433fb;
+  cursor: pointer;
+}
+
+.page7 {
+  position: relative;
+  margin: 50px 0;
+  padding: 0 100px;
+  width: 100%;
+  height: 100vh;
+}
+
+.page7 .header {
+  width: 60%;
+}
+
+.page7 .header h1 {
+  width: 40%;
+  font-weight: 500;
+  margin-top: 300px;
+  padding-top: 300px;
+  padding-left: 50px;
+}
+
+.page7 .header p {
+  padding-top: 30px;
+  padding-left: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: larger;
+  color: #656565;
+  width: 40%;
+}
+
+.page7 .row {
+  margin-top: 100px;
+}
+
+.page7 .col-4 img {
+  width: 500px;
+  height: 400px;
+}
+
+.page7 .col-4 .img2 {
+  bottom: 200px;
+  position: absolute;
+}
+
+.page7 .col-4 .img3 {
+  bottom: 400px;
+  position: absolute;
+}
+
+.page8 {
+  position: relative;
+  margin-top: 200px;
+  background-image: url("./images/Group\ 42.png");
+  width: 1920px;
+  height: 1200px;
+  padding-left: 200px;
+  padding-right: 200px;
+  width: 100%;
+  height: 100vh;
+}
+
+.page8 .main_container {
+  bottom: 150px;
+  position: absolute;
+  display: flex;
+}
+
+.page8 .main_container .container {
+  width: 250px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page8 .main_container .last_container .container {
+  width: 400px;
+  height: 150px;
+  padding-bottom: 150px;
+}
+
+.page8 .main_container .last_container .container .input {
+  display: flex;
+  flex-direction: row;
+}
+
+.page8 .main_container .last_container .container .input button {
+  background-image: linear-gradient(#9a1ed5, #8d33f6);
+  height: 40px;
+  width: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  border: none;
+}
+
+.page8 .main_container .last_container .container .input input {
+  background-color: #707070;
+  height: 40px;
+
+  /* placeholder {
+    color: #9b9b9b;
+  } */
+}
+
+.page8 .main_container .container h4 {
+  padding-bottom: 10px;
+  color: white;
+}
+
+.page8 .main_container .last_container .container h4 {
+  color: white;
+}
+
+.page8 .main_container .container a {
+  padding-top: 5px;
+  color: #b3b3b3;
+}
+
+.page8 .main_container .container p {
+  color: #b3b3b3;
+}
+
+.page8 .main_container .last_container .container p {
+  color: #b3b3b3;
+}
+
+/* .page8 .main_container .logo_container {
+  position: absolute;
+  right: 300px;
+  top: 200px;
+} */
 
 /*# sourceMappingURL=style.css.map */
