@@ -201,15 +201,14 @@
 
 .page4 {
   position: relative;
-  margin: 50px 0;
-  padding: 0 100px;
+  margin: 150px 0;
+  padding: 0 50px;
   width: 100%;
   height: 100vh;
 }
 
 .page4 .header {
   margin: 50px 0;
-  padding: 0 30px;
   width: 30%;
 }
 
@@ -219,9 +218,9 @@
   font-weight: bold;
 }
 
-.page4 .col-4 {
-  padding: 40px;
-}
+/* .page4 .col-4 {
+    padding: 10px;
+} */
 
 .page4 .container1,
 .container2,
@@ -231,6 +230,7 @@
 .container6 {
   box-shadow: 0 2px 4px gray;
   padding: 60px;
+  margin: 20px;
 }
 
 .page4 .col-4 h4 {
@@ -238,7 +238,7 @@
 }
 
 .page4 .col-4 p {
-  padding-top: 30px;
+  padding: 0px;
 }
 
 .page4 .container5 {
@@ -509,10 +509,29 @@
   color: #b3b3b3;
 }
 
-/* .page8 .main_container .logo_container {
+.page8 .main_container .last_container {
+  position: relative;
+}
+
+.page8 .main_container .links_container {
+  display: flex;
   position: absolute;
-  right: 300px;
   top: 200px;
-} */
+  right: 100px;
+
+}
+
+.page8 .main_container .links_container a {
+  text-align: center;
+  margin-inline: 10px;
+  background-color: white;
+  padding: 10px;
+  border: 1px solid #04091e;
+  border-radius: 60px;
+  height: 50px;
+  width: 50px;
+
+}
+
 
 /*# sourceMappingURL=style.css.map */
